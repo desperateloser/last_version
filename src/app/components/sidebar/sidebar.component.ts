@@ -12,10 +12,10 @@ export const ROUTES: RouteInfo[] = [
     { path: '/user-profile', title: 'Mon profil',  icon:'person', class: '' },
     { path: '/employees', title: 'Trombinoscope',  icon:'perm_contact_calendar', class: '' },
     { path: '/documents', title: 'Bibliothéque',  icon:'library_books', class: '' },
-    { path: '/request', title: 'Contact admin ' ,  icon:'markunread' ,class: '' },
-    { path: '/feed', title: 'Feedback' ,  icon:'' ,class: '' },
+    { path: '/ugk', title: 'Contact admin ' ,  icon:'markunread' ,class: '' },
+    { path: '/feedback', title: 'Feedback' ,  icon:'' ,class: '' },
     { path: '/request', title: 'Demande de congés' ,  icon:'' ,class: '' },
-    { path: '/table-list', title: 'Gérer membres',  icon:'supervisor_account', class: '' },
+    { path: '/manageusers', title: 'Gérer membres',  icon:'supervisor_account', class: '' },
 
 ];
 

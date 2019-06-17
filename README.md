@@ -108,16 +108,16 @@ material-dashboard-angular
 │   │   │   ├── maps.component.html
 │   │   │   ├── maps.component.spec.ts
 │   │   │   └── maps.component.ts
-│   │   ├── notifications
-│   │   │   ├── notifications.component.css
-│   │   │   ├── notifications.component.html
-│   │   │   ├── notifications.component.spec.ts
-│   │   │   └── notifications.component.ts
-│   │   ├── table-list
-│   │   │   ├── table-list.component.css
-│   │   │   ├── table-list.component.html
-│   │   │   ├── table-list.component.spec.ts
-│   │   │   └── table-list.component.ts
+│   │   ├── feedback
+│   │   │   ├── feedback.component.css
+│   │   │   ├── feedback.component.html
+│   │   │   ├── feedback.component.spec.ts
+│   │   │   └── feedback.component.ts
+│   │   ├── manageusers
+│   │   │   ├── manageusers.component.css
+│   │   │   ├── manageusers.component.html
+│   │   │   ├── manageusers.component.spec.ts
+│   │   │   └── manageusers.component.ts
 │   │   ├── employees
 │   │   │   ├── employees.component.css
 │   │   │   ├── employees.component.html
