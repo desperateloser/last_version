@@ -6,11 +6,12 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
-import {
-  AgmCoreModule
-} from '@agm/core';
+import {AgmCoreModule} from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import {HttpClientModule} from "@angular/common/http";
+import {AdduserComponent} from "./adduser/adduser.component";
+import {EdituserComponent} from "./edituser/edituser.component";
+import {ManageusersComponent} from "./manageusers/manageusers.component";
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import {HttpClientModule} from "@angular/common/http";
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+     
 
   ],
   providers: [],

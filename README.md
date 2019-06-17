@@ -118,11 +118,21 @@ material-dashboard-angular
 │   │   │   ├── manageusers.component.html
 │   │   │   ├── manageusers.component.spec.ts
 │   │   │   └── manageusers.component.ts
-│   │   ├── employees
-│   │   │   ├── employees.component.css
-│   │   │   ├── employees.component.html
-│   │   │   ├── employees.component.spec.ts
-│   │   │   └── employees.component.ts
+│   │   ├── edituser
+│   │   │   ├── edituser.component.css
+│   │   │   ├── edituser.component.html
+│   │   │   ├── edituser.component.spec.ts
+│   │   │   └── edituser.component.ts
+│   │   ├── adduser
+│   │   │   ├── adduser.component.css
+│   │   │   ├── adduser.component.html
+│   │   │   ├── adduser.component.spec.ts
+│   │   │   └── adduser.component.ts
+│   │   ├── users
+│   │   │   ├── users.component.css
+│   │   │   ├── users.component.html
+│   │   │   ├── users.component.spec.ts
+│   │   │   └── users.component.ts
 │   │   ├── documents
 │   │   │   ├── documents.component.css
 │   │   │   ├── documents.component.html
