@@ -5,7 +5,7 @@ import { FormsModule} from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { HomeComponent } from '../../home/home.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { ManageusersComponent } from '../../manageusers/manageusers.component';
+import { ManageusersComponent } from '../../user/manageusers/manageusers.component';
 import { UsersComponent } from '../../users/users.component';
 import { RequestComponent } from '../../request/request.component';
 import { DocumentsComponent } from '../../documents/documents.component';
@@ -19,7 +19,7 @@ import {
   MatTooltipModule,
   MatSelectModule
 } from '@angular/material';
-import {AdduserComponent} from "../../adduser/adduser.component";
+import {AdduserComponent} from "../../user/adduser/adduser.component";
 
 @NgModule({
   imports: [

@@ -2,13 +2,13 @@ import { Routes } from '@angular/router';
 
 import { HomeComponent } from '../../home/home.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { ManageusersComponent } from '../../manageusers/manageusers.component';
+import { ManageusersComponent } from '../../user/manageusers/manageusers.component';
 import { UsersComponent } from '../../users/users.component';
 import { RequestComponent } from '../../request/request.component';
 import { DocumentsComponent } from '../../documents/documents.component';
 import { FeedbackComponent} from "../../feedback/feedback.component";
 import { EdituserComponent} from "../../edituser/edituser.component";
-import {AdduserComponent} from "../../adduser/adduser.component";
+import {AdduserComponent} from "../../user/adduser/adduser.component";
 
 export const AdminLayoutRoutes: Routes = [
 

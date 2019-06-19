@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import {AgmCoreModule} from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import {HttpClientModule} from "@angular/common/http";
+import {UserService} from "./user/user.service";
+import {ManageusersComponent} from "./user/manageusers/manageusers.component";
 
 
 @NgModule({
@@ -26,7 +28,7 @@ import {HttpClientModule} from "@angular/common/http";
 
 
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

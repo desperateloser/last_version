@@ -1,4 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {User} from "../user";
+import {UserService} from "../user.service";
 
 
 
@@ -9,8 +11,6 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class AdduserComponent implements OnInit {
 
-
-  ngOnInit() {
-  }
-
+ngOnInit(): void {
+}
 }
